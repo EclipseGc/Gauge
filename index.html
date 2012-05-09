@@ -4,71 +4,129 @@
     <link rel="stylesheet" type="text/css" href="css/grid.css" />
     <style>
       .filler {
-        height:10px;
+        min-height:10px;
         background-color:#000;
         margin-bottom:10px;
+        color:#fff;
+        text-align:center;
       }
     </style>
   </head>
-  <body>
-    <div class="container">
-      <div class="wide-7 col-4">
+  <body class="container">
+    <h3>25/75 content first</h3>
+    <div class="wide-9 push-3 col-1"><div class="filler">wide-9 push-3 col-1</div></div>
+    <div class="wide-3 pull-9 col-1"><div class="filler">wide-3 pull-9 col-1</div></div>
+    
+    <h3>25/50/25 content first</h3>
+    <div class="wide-6 push-3 col-1"><div class="filler">wide-6 push-3 col-1</div></div>
+    <div class="wide-3 pull-6 col-1"><div class="filler">wide-3 pull-6 col-1</div></div>
+    <div class="wide-3 col-1"><div class="filler">wide-3 col-1</div></div>
+    
+    <h3>33/33/33 center first</h3>
+    <div class="wide-4 push-4 col-1"><div class="filler">wide-4 push-4 col-1</div></div>
+    <div class="wide-4 pull-4 col-1"><div class="filler">wide-4 pull-4 col-1</div></div>
+    <div class="wide-4 col-1"><div class="filler">wide-4 col-1</div></div>
+    
+    <h3>25/75 content first</h3>
+    <div class="wide-9 push-3">
+      <div class="wide-12 col-1">
+        <div class="filler">wide-9 push-3 & wide-12 col-1</div>
+      </div>
+      <div class="wide-6 col-2">
+        <div class="filler">wide-6 col-2</div>
+        <div class="filler"></div>
+      </div>
+      <div class="wide-6 col-3">
+        <div class="filler">wide-6 col-3</div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+      </div>
+      <div class="wide-4 col-2">
+        <div class="filler">wide-4 col-2</div>
+        <div class="filler"></div>
+      </div>
+      <div class="wide-4 col-2">
+        <div class="filler">wide-4 col-2</div>
+        <div class="filler"></div>
+      </div>
+      <div class="wide-4 col-2">
+        <div class="filler">wide-4 col-2</div>
+        <div class="filler"></div>
+      </div>
+      <div class="wide-7 col-2">
+        <div class="filler">wide-7 col-2</div>
+        <div class="filler"></div>
+      </div>
+      <div class="wide-5 col-2">
+        <div class="filler">wide-5 col-2</div>
+        <div class="filler"></div>
+      </div>
+      <div class="wide-12 col-12">
+        <div class="filler">wide-12 col-12</div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
         <div class="filler"></div>
         <div class="filler"></div>
         <div class="filler"></div>
         <div class="filler"></div>
       </div>
-      <div class="wide-5 col-1">
+    </div>
+    <div class="wide-3 pull-9 col-1"><div class="filler">wide-3 pull-9 col-1</div></div>
+    
+    <div class="wide-12"><h3>Insanity</h3></div>
+    <div class="push-4 wide-4">
+      <div class="push-3 wide-9 col-1">
+        <div class="filler"></div>
+        <div class="filler"></div>
         <div class="filler"></div>
       </div>
-      <div class="wide-6 col-1">
-        <div class="col-2">
-          <div class="filler"></div>
-          <div class="col-2">
-            <div class="filler"></div>
-            <div class="filler"></div>
-          </div>
-        </div>
-      </div>
-      <div class="wide-6 col-1">
+      <div class="pull-9 wide-3 col-4">
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
+        <div class="filler"></div>
         <div class="filler"></div>
       </div>
-
-      <div id="body" class="wide-12">
-        <div class="wide-6">
-          <div class="wide-7 col-2 push-5">
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-          </div>
-          <div class="wide-5 col-2 pull-7">
-            <div class="filler"></div>
-            <div class="filler"></div>
-          </div>
-        </div>
-        <div class="wide-6">
-          <div class="wide-9 col-2">
-            <div class="filler"></div>
-            <div class="filler"></div>
-          </div>
-          <div class="wide-3 col-3">
-            <div class="filler"></div>
-            <div class="filler"></div>
-            <div class="filler"></div>
-          </div>
-        </div>
-      </div>
-
-      <div id="footer" class="wide-1"></div>
+    </div>
+    <div class="pull-4 wide-4 col-4">
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+    </div>
+    <div class="wide-4 col-4">
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
+      <div class="filler"></div>
     </div>
   </body>
 </html>
